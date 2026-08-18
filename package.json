@@ -1,0 +1,6 @@
+{
+  "name": "tv-tracker",
+  "scripts": {
+    "start": "bun run --watch index.ts"
+  }
+}
