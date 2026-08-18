@@ -1,0 +1,5 @@
+# TV Tracker — Summary
+
+TV Tracker is a full-stack web application for managing a personal television watchlist. Users can search for any TV show by name (powered by the free TVMaze API, which requires no API key), add it to their tracker, and immediately get a complete episode list auto-imported across all seasons. Each show appears as a card in a responsive grid with a poster image, airing status (Running or Ended), and a live progress bar showing how many episodes have been watched out of the total. Shows are filterable by status — All, Watching, Plan to Watch, and Completed — so users can quickly navigate their backlog.
+
+The application is built on Bun with a SQLite database for persistence, served as a single-page app. Clicking a show opens a side panel listing every season as a collapsible accordion; individual episodes can be checked off one at a time, or an entire season can be bulk-marked watched or unwatched with a single button. All state is stored server-side and survives page refreshes. The UI uses a dark theme with subtle animations, responsive layout for mobile and desktop, and keyboard shortcuts (Escape closes any open modal or panel).
